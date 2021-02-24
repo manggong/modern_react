@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Hello from './hello'
+import Wrapper from './Wrapper'
 import './App.css';
 
 function App() {
@@ -11,11 +12,9 @@ function App() {
     padding: '1rem'
   }
   return (
-    <>
-      <div className="App">
+    <Wrapper>
         <Hello style = {style}/>
-      </div>
-    </>
+    </Wrapper>
   );
 }
 
