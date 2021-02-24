@@ -13,10 +13,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Hello/>
-      </div>
-      <div style = {style}>
-        {name}
+        <Hello style = {style}/>
       </div>
     </>
   );
