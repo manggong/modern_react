@@ -13,7 +13,7 @@ function App() {
   }
   return (
     <Wrapper>
-        <Hello style = {style}/>
+        <Hello style = {style} isSpecial={true}/>
     </Wrapper>
   );
 }
