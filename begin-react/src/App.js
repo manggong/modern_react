@@ -1,6 +1,5 @@
 import logo from './logo.svg';
-import Hello from './hello'
-import Wrapper from './Wrapper'
+import Counter from './counter'
 import './App.css';
 
 function App() {
@@ -12,9 +11,7 @@ function App() {
     padding: '1rem'
   }
   return (
-    <Wrapper>
-        <Hello style = {style} isSpecial={true}/>
-    </Wrapper>
+    <Counter/>
   );
 }
 
