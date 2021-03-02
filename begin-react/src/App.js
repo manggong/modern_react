@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Counter from './counter'
+import InputSample from './InputSample'
 import './App.css';
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
     padding: '1rem'
   }
   return (
-    <Counter/>
+    <>
+      <Counter/>
+      <InputSample/>
+    </>
   );
 }
 
